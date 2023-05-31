@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# CONTACT APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This code consists of a React application component called "MobileApp" that represents the main application. Let's take a look at the components and libraries/plugins used in the code.
 
-## Available Scripts
+## Component:
 
-In the project directory, you can run:
+`<div className='full-body'>`: This represents the main container of your app.
 
-### `npm start`
+`<div className='searchTag'> `: This is the container for the search box input and reset buttons.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+And there is a search box input field where the user can enter search text.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+`<button className="button" onClick={handleReset}>` This is a reset button that allows the user to clear the search text and reset the selected contact.
 
-### `npm test`
+`<ul className='list'>` This is an unordered list container for rendering filtered contacts.
+And there is a `li` which is represents a contact in your contact list.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`<div className='selectedContact'>`: This is the container for the popup that displays the name and number of the selected contact.
 
-### `npm run build`
+`<button className="button" onClick={handlePopupClose}>` This is the button inside the popup that allows the user to close the popup.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Let's talk about Libraries:-
+## Libraries:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React is a JavaScript library used to build user interfaces and manage component-based architectures.
+`useState:` This is a React hook used to manage state variables for functional components.
+`MobileApp.css`: This is the CSS file that is imported to style the components inside the MobileApp component.
+It includes CSS styles for the mobile app, search box, input, reset button, contact list, popup, and close button.
+It also include responsive styles using media queries for different screen sizes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Deploy Link:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://stunning-tartufo-551a79.netlify.app/
